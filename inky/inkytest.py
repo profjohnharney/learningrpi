@@ -13,7 +13,7 @@ draw = ImageDraw.Draw(img)
 
 font = ImageFont.truetype(FredokaOne, 22)
 
-message = "REM really were a great band."
+message = "Centre College"
 w, h = font.getsize(message)
 x = (inky_display.WIDTH / 2) - (w / 2)
 y = (inky_display.HEIGHT / 2) - (h / 2)
